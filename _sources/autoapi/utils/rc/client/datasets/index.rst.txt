@@ -1,0 +1,50 @@
+:py:mod:`utils.rc.client.datasets`
+==================================
+
+.. py:module:: utils.rc.client.datasets
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.client.datasets.DatasetsClient
+
+
+
+
+.. py:class:: DatasetsClient
+
+   .. py:method:: createDataset(project_id: str, name: str, description: str, dataset_meta)
+      :staticmethod:
+
+
+   .. py:method:: findByName(name, projectId) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: getStats(datasetId)
+      :staticmethod:
+
+
+   .. py:method:: getDataset(datasetId)
+      :staticmethod:
+
+
+   .. py:method:: deleteDataset(datasetId)
+      :staticmethod:
+
+
+   .. py:method:: getData(datasetId, numRows)
+      :staticmethod:
+
+
+   .. py:method:: getParquet(datasetId)
+      :staticmethod:
+
+
+

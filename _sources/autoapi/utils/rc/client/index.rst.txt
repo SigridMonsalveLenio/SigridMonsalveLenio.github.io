@@ -1,0 +1,22 @@
+:py:mod:`utils.rc.client`
+=========================
+
+.. py:module:: utils.rc.client
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   auth/index.rst
+   datasets/index.rst
+   files/index.rst
+   project/index.rst
+   requests/index.rst
+   segments/index.rst
+   templates/index.rst
+   user/index.rst
+
+

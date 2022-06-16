@@ -1,0 +1,62 @@
+:py:mod:`utils.rc.dtos.dataset`
+===============================
+
+.. py:module:: utils.rc.dtos.dataset
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.dtos.dataset.Dataset
+   utils.rc.dtos.dataset.DatasetMeta
+
+
+
+
+.. py:class:: Dataset(data={})
+
+   .. py:method:: setData(self, data)
+
+
+   .. py:method:: getData(self, num_rows=10) -> pandas.DataFrame
+
+      Get rows of the dataset and output as dataframe
+      :param num_rows: number of rows
+      :return: dataframe
+
+
+   .. py:method:: getCols(self)
+
+
+   .. py:method:: refresh(self)
+
+
+   .. py:method:: getDataset(datasetId: str)
+      :staticmethod:
+
+
+   .. py:method:: deleteDataset(datasetId: str)
+      :staticmethod:
+
+
+   .. py:method:: saveParquet(self, filePath: str)
+
+      It saves the dataset file to local parquet file
+      :param filePath: local parquet path where you want the dataset to be saved
+
+
+   .. py:method:: getAllSegments(self)
+
+
+   .. py:method:: addSegment(self, segment: utils.rc.dtos.segment.Segment)
+
+
+
+.. py:class:: DatasetMeta(data={})
+
+

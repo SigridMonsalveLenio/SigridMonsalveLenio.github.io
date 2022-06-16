@@ -1,0 +1,42 @@
+:py:mod:`utils.rc.wrapper.datasets`
+===================================
+
+.. py:module:: utils.rc.wrapper.datasets
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.wrapper.datasets.DatasetsWrapper
+
+
+
+
+.. py:class:: DatasetsWrapper
+
+   .. py:method:: saveParquet(dataset_id: str, file_path: str)
+      :staticmethod:
+
+
+   .. py:method:: getData(dataset_id: str, num_rows: int)
+      :staticmethod:
+
+
+   .. py:method:: getDataset(dataset_id: str)
+      :staticmethod:
+
+
+   .. py:method:: deleteDataset(dataset_id: str)
+      :staticmethod:
+
+
+   .. py:method:: uploadFile(project_id: str, name: str, description: str, file_path: str, dataset_meta)
+      :staticmethod:
+
+
+

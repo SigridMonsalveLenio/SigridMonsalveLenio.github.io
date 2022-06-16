@@ -1,0 +1,30 @@
+:py:mod:`utils.rc.client.user`
+==============================
+
+.. py:module:: utils.rc.client.user
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.client.user.UserClient
+
+
+
+
+.. py:class:: UserClient
+
+   .. py:method:: createTenant(name, description) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: getUserTenants() -> requests.Response
+      :staticmethod:
+
+
+

@@ -1,0 +1,34 @@
+:py:mod:`utils.rc.client.segments`
+==================================
+
+.. py:module:: utils.rc.client.segments
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.client.segments.SegmentsClient
+
+
+
+
+.. py:class:: SegmentsClient
+
+   .. py:method:: createSegment(segment)
+      :staticmethod:
+
+
+   .. py:method:: getData(segmentId, num_rows)
+      :staticmethod:
+
+
+   .. py:method:: getSegmentsByDatasetId(datasetId)
+      :staticmethod:
+
+
+

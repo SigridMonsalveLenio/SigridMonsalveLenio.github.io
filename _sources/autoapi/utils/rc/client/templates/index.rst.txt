@@ -1,0 +1,73 @@
+:py:mod:`utils.rc.client.templates`
+===================================
+
+.. py:module:: utils.rc.client.templates
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.client.templates.TemplatesClient
+
+
+
+
+.. py:class:: TemplatesClient
+
+   .. py:method:: getAllTemplates()
+      :staticmethod:
+
+
+   .. py:method:: createRecipe(project_id, name, dataset_ids)
+
+
+   .. py:method:: getRecipe(recipe_id=None, name=None, project_id=None)
+      :staticmethod:
+
+
+   .. py:method:: getTransform(transform_id=None, name=None, recipe_id=None)
+      :staticmethod:
+
+
+   .. py:method:: runRecipe(recipe_id)
+      :staticmethod:
+
+
+   .. py:method:: testRecipe(recipe_id, template_id, variables)
+      :staticmethod:
+
+
+   .. py:method:: addTransform(recipe_id, name, template_id, variables)
+      :staticmethod:
+
+
+   .. py:method:: updateTransform(transform_id, template_id, variables)
+      :staticmethod:
+
+
+   .. py:method:: removeTransform(transform_id)
+      :staticmethod:
+
+
+   .. py:method:: publishTemplate(templateDict)
+      :staticmethod:
+
+
+   .. py:method:: overwriteTemplate(templateDict)
+      :staticmethod:
+
+
+   .. py:method:: getDFSTemplateByName(name)
+      :staticmethod:
+
+
+   .. py:method:: deleteDFSTemplate(id)
+      :staticmethod:
+
+
+

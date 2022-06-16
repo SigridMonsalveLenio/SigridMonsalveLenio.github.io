@@ -1,0 +1,26 @@
+:py:mod:`utils.rc`
+==================
+
+.. py:module:: utils.rc
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   client/index.rst
+   dtos/index.rst
+   wrapper/index.rst
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   utils/index.rst
+
+

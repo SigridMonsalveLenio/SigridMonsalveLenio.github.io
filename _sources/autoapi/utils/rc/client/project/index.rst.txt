@@ -1,0 +1,62 @@
+:py:mod:`utils.rc.client.project`
+=================================
+
+.. py:module:: utils.rc.client.project
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.client.project.ProjectClient
+
+
+
+
+.. py:class:: ProjectClient
+
+   .. py:method:: createProject(name, description) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: createProjectFromSolution(name, solution) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: findByName(name) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: getAllProject() -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: getCanvas(project_id) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: getSchema(project_id) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: run(project_id) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: getAllDatasets(projectId) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: deleteProject(projectId) -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: getAllRecipes(projectId) -> requests.Response
+      :staticmethod:
+
+
+

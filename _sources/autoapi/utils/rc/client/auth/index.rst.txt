@@ -1,0 +1,35 @@
+:py:mod:`utils.rc.client.auth`
+==============================
+
+.. py:module:: utils.rc.client.auth
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.client.auth.AuthClient
+
+
+
+
+.. py:class:: AuthClient
+
+   .. py:method:: setToken(email=None, password=None, token=None)
+      :staticmethod:
+
+      It authenticates the user and uses this identity in all future operations
+      There are many methods to authenticate:
+      1) Provide email and password as arguments
+      2) Set RC_PYTHON_CLIENT_EMAIL and RC_PYTHON_CLIENT_PASSWORD in environment variables
+      3) Provide token as argument. Token can be retrieved from the RC UI
+      :param email:
+      :param password:
+      :param token:
+
+
+

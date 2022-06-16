@@ -1,0 +1,26 @@
+:py:mod:`utils.rc.wrapper.user`
+===============================
+
+.. py:module:: utils.rc.wrapper.user
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.wrapper.user.UserWrapper
+
+
+
+
+.. py:class:: UserWrapper
+
+   .. py:method:: getUserInfo()
+      :staticmethod:
+
+
+

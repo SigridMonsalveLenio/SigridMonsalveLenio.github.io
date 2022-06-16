@@ -1,0 +1,77 @@
+:py:mod:`utils.rc.client.requests`
+==================================
+
+.. py:module:: utils.rc.client.requests
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.client.requests.Requests
+
+
+
+
+.. py:class:: Requests
+
+   .. py:attribute:: host
+      :annotation: = 
+
+      
+
+   .. py:attribute:: apiV2Host
+      :annotation: = 
+
+      
+
+   .. py:attribute:: token
+      :annotation: = 
+
+      
+
+   .. py:method:: setRootHost(host)
+      :staticmethod:
+
+
+   .. py:method:: getRootHost()
+      :staticmethod:
+
+
+   .. py:method:: getApiV2Host()
+      :staticmethod:
+
+
+   .. py:method:: setToken(token)
+      :staticmethod:
+
+
+   .. py:method:: getToken()
+      :staticmethod:
+
+
+   .. py:method:: post(endpoint, payload=None, api_type='v2') -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: get(endpoint, params_dict=None, api_type='v2') -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: postFile(endpoint, file_path, api_type='v2') -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: delete(endpoint, payload=None, api_type='v2') -> requests.Response
+      :staticmethod:
+
+
+   .. py:method:: put(endpoint, payload=None, api_type='v2') -> requests.Response
+      :staticmethod:
+
+
+

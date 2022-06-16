@@ -1,0 +1,74 @@
+:py:mod:`utils.rc.dtos.project`
+===============================
+
+.. py:module:: utils.rc.dtos.project
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.dtos.project.Project
+
+
+
+
+.. py:class:: Project(data={})
+
+   .. py:method:: addDataset(self, dataset_name, dataset_description, dataset_file_path, entity_type='BASE', entity_ontology='NONE') -> utils.rc.dtos.dataset.Dataset
+
+      This adds a dataset to the project
+      :param dataset_name: name of the dataset
+      :param dataset_description: description of the dataset
+      :param dataset_file_path: local file path where dataset resides, can either be a csv or parquet file
+      :param entity_type: optional
+      :param entity_ontology: optional
+      :return: returns the created dataset
+
+
+   .. py:method:: addRecipe(self, datasets: [utils.rc.dtos.dataset.Dataset], name: object = None) -> object
+
+      This adds a recipe to the project
+      :param datasets: List of input datasets for the recipe.
+      :param name: Name of the recipe, if not provided, a unique name will be automatically generated
+      :return: returns the added recipe
+
+
+   .. py:method:: getCanvas(self)
+
+
+   .. py:method:: getSchema(self)
+
+
+   .. py:method:: run(self)
+
+
+   .. py:method:: getAllDatasets(self) -> [utils.rc.dtos.dataset.Dataset]
+
+
+   .. py:method:: create(name: str, description: str, createEmpty: bool = False, solution: str = None)
+      :staticmethod:
+
+      It creates a project. If there exists a project with same name, it will be returned.
+      :param name: name of the project
+      :param description: description of the project
+      :param createEmpty: if true, then it always creates an empty project, if any project exists already, it deletes it
+      :return: returns the created project
+
+
+   .. py:method:: getAllProjects()
+      :staticmethod:
+
+
+   .. py:method:: deleteProject(projectId)
+      :staticmethod:
+
+
+   .. py:method:: getAllRecipes(self) -> [utils.rc.dtos.recipe.Recipe]
+
+
+

@@ -1,0 +1,38 @@
+:py:mod:`utils.rc.client.files`
+===============================
+
+.. py:module:: utils.rc.client.files
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.client.files.FilesClient
+
+
+
+
+.. py:class:: FilesClient
+
+   .. py:method:: uploadFile(datasetId, filePath)
+      :staticmethod:
+
+
+   .. py:method:: getStats(fileId)
+      :staticmethod:
+
+
+   .. py:method:: uploadNotebook(notebookPath)
+      :staticmethod:
+
+
+   .. py:method:: downloadOutNotebook(notebookName)
+      :staticmethod:
+
+
+

@@ -1,0 +1,59 @@
+:py:mod:`utils.rc.dtos.template`
+================================
+
+.. py:module:: utils.rc.dtos.template
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.dtos.template.Template
+   utils.rc.dtos.template.TemplateInput
+   utils.rc.dtos.template.TemplateInputDisplay
+   utils.rc.dtos.template.TemplateTransform
+
+
+
+
+.. py:class:: Template(data={})
+
+   .. py:method:: setData(self, data={})
+
+
+   .. py:method:: getAllInputNames(self)
+
+
+   .. py:method:: publish(self, notebook_path=None)
+
+
+   .. py:method:: getAll()
+      :staticmethod:
+
+
+   .. py:method:: getAllWithId()
+      :staticmethod:
+
+
+   .. py:method:: findByName(name: str)
+      :staticmethod:
+
+
+
+.. py:class:: TemplateInput(data={})
+
+   .. py:method:: getTemplateInput(name: str, inputName=None, tooltip=None)
+      :staticmethod:
+
+
+
+.. py:class:: TemplateInputDisplay(data={})
+
+
+.. py:class:: TemplateTransform(data={})
+
+

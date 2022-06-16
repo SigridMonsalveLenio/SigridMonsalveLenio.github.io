@@ -1,0 +1,54 @@
+:py:mod:`utils.rc.wrapper.project`
+==================================
+
+.. py:module:: utils.rc.wrapper.project
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.wrapper.project.ProjectWrapper
+
+
+
+
+.. py:class:: ProjectWrapper
+
+   .. py:method:: getProject(name: str, description: str, createEmpty: bool, solution: str = None)
+      :staticmethod:
+
+
+   .. py:method:: getSchema(project_id: str)
+      :staticmethod:
+
+
+   .. py:method:: run(project_id: str)
+      :staticmethod:
+
+
+   .. py:method:: getAllDatasets(project_id: str)
+      :staticmethod:
+
+
+   .. py:method:: getCanvas(project_id: str)
+      :staticmethod:
+
+
+   .. py:method:: getAllProject()
+      :staticmethod:
+
+
+   .. py:method:: deleteProject(projectId)
+      :staticmethod:
+
+
+   .. py:method:: getAllRecipes(projectId)
+      :staticmethod:
+
+
+

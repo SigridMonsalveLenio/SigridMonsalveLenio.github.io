@@ -1,0 +1,28 @@
+:py:mod:`utils.rc.dtos.canvas`
+==============================
+
+.. py:module:: utils.rc.dtos.canvas
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.dtos.canvas.Canvas
+
+
+
+
+.. py:class:: Canvas(data={})
+
+   .. py:method:: getNodes(self)
+
+
+   .. py:method:: getEdges(self)
+
+
+

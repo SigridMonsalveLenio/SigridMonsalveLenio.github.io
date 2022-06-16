@@ -1,0 +1,26 @@
+:py:mod:`utils.rc.dtos.user`
+============================
+
+.. py:module:: utils.rc.dtos.user
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.dtos.user.User
+
+
+
+
+.. py:class:: User(data={})
+
+   .. py:method:: getUserInfo()
+      :staticmethod:
+
+
+

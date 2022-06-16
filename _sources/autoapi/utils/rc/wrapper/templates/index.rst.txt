@@ -1,0 +1,62 @@
+:py:mod:`utils.rc.wrapper.templates`
+====================================
+
+.. py:module:: utils.rc.wrapper.templates
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.wrapper.templates.TemplatesWrapper
+
+
+
+
+.. py:class:: TemplatesWrapper
+
+   .. py:method:: getNotebook(notebook_name, local_path)
+      :staticmethod:
+
+
+   .. py:method:: getAllTemplates()
+      :staticmethod:
+
+
+   .. py:method:: addRecipe(project_id: str, name: str, dataset_ids: [str])
+      :staticmethod:
+
+
+   .. py:method:: addTransformToRecipe(recipe_id: str, name: str, template_id: str, variables: dict)
+      :staticmethod:
+
+
+   .. py:method:: testRecipe(recipe_id: str, template_id: str, variables: dict)
+      :staticmethod:
+
+
+   .. py:method:: getRecipe(recipe_id: str)
+      :staticmethod:
+
+
+   .. py:method:: runRecipe(recipe_id: str)
+      :staticmethod:
+
+
+   .. py:method:: publishTemplate(templateDict, notebook_path=None)
+      :staticmethod:
+
+
+   .. py:method:: uploadNotebook(notebook_path)
+      :staticmethod:
+
+
+   .. py:method:: findTemplateByName(name)
+      :staticmethod:
+
+
+

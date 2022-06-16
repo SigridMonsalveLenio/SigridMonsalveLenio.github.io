@@ -1,0 +1,31 @@
+:py:mod:`utils.rc.dtos.schema`
+==============================
+
+.. py:module:: utils.rc.dtos.schema
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   utils.rc.dtos.schema.Schema
+
+
+
+
+.. py:class:: Schema(data={})
+
+   .. py:method:: get(self)
+
+
+   .. py:method:: getDatasetSchema(self, name)
+
+
+   .. py:method:: getAllDatasets(self)
+
+
+
