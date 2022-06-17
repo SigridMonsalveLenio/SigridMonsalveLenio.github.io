@@ -1,0 +1,16 @@
+.wy-nav-content {
+  width: 100vw;
+}
+.wy-side-nav-search {
+  background: #123553;
+}
+.wy-nav-side {
+  background: #415F80;
+  color: #FFFFFF;
+}
+.rst-content .toctree-wrapper>p.caption, h1, h2, h3, h4, h5, h6, legend {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+  color: #E59982;
+}
